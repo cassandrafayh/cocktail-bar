@@ -191,6 +191,7 @@ footer h2 {
 
 /* ---- Media Queries - make site responsive ---- */
 
+/* Gridlex Small */
 @media(max-width: 48em) {
 
     .mob-hide { display: none; }
@@ -201,4 +202,10 @@ footer h2 {
     h1 span { font-size: 2rem; }
 
     footer a {font-size: 1rem; }
+}
+
+/* Custom XXS Media Query */
+@media(max-width: 265em) {
+    h1 { font-size: 4.5rem; }
+    h1 span { font-size: 1.5rem; }
 }
