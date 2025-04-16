@@ -81,6 +81,8 @@ h1,h2,h3,h4,h5,h6 {
     font-family: 'Didot', Georgia, serif;
 }
 
+/* Typically only one h1 on a page so can normally target that on it's own, whereas we may have several h2s, so these need to be styled seperatley with their own style/ class */
+
 h1 {
     font-size: 10rem;
     line-height: 0.8;
@@ -113,3 +115,43 @@ a {
 
 
 
+/* ---- Unique Typography styles ---- */
+
+.tight-text {
+    line-height: 0.8;
+}
+
+/* Display block here = keeps inside container when working with span as stand alone element - block or in-line block. Margin top keeps paragraphs inline */
+.price {
+    display: block;
+    font-weight: 400;
+    margin-top: 0.5rem;
+    text-align: right;
+}
+
+
+.text-lg { font-size: 4.5rem; }
+.text-xl { font-size: 6rem;   }
+
+
+.menu p {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
+
+.menu h3 {
+    margin: 1rem 0;
+}
+
+
+/* ---- Header & Footer ---- */
+
+footer {
+    padding: 5%;
+    padding-bottom: 1rem;
+}
+
+footer a {
+    font-size: 1.2rem;
+}
