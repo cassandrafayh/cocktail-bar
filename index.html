@@ -22,18 +22,22 @@
         <link rel="stylesheet" href="/style.css">
 
     </head>
+
     <body>
+
         <header class="bg-image padded bg-glass tall-90 grid-left"> 
             <div class="col-middle right"> 
                 <h1 class="featured-text"> negroni <span> cocktail bar. </span></h1>
             </div>
         </header>
+
         <!-- No padding on images this time as we want them to stretch full width -->
         <section class="grid light-text tall-80">
             <!-- Code for two columns = start as col 4 & 8 on desktop then drop down on top of eachother on smaller devices -->
             <div class="col-4_sm-12 bg-image bg-window padded mob-hide">
                 <h2> drinks <br> done <br> right. </h2>
             </div>
+            <!-- To vertically center we have put/ nested a grid inside a grid (col-8 is column of main grid & is also a grid itself to allow us to vertically center it's conents)-->
             <div class="col-8_sm-12 bg-image bg-plant grid">
                 <div class="col-12-middle right padded">
                     <h2 class="text-lg tight-text"> 5pm - late <span> everyday. </span></h2>
@@ -41,6 +45,15 @@
             </div>
         </section>
 
+        <!-------- Menu Section -------->
+
+        <!-- Grid-center = if not using full 12 columns it will center the columns we do have -->
+        <section class="padded bg-featured light-text menu" grid-center>
+            <!-- wrapped in col-12 because everything inside a grid needs to be a column class -->
+            <div class="col-12 center">
+
+            </div>
+        </section>
 
 
     </body>
