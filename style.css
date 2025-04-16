@@ -155,3 +155,34 @@ footer {
 footer a {
     font-size: 1.2rem;
 }
+
+footer h2 {
+    margin-bottom: 0.5rem;
+}
+
+
+.sub-footer {
+    padding-top: 5%;
+}
+
+.sub-footer p {
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+
+
+
+
+/*---- Images & Background Images ----*/
+
+.bg-image {
+    background-color: #183039;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-glass {background-image: url('/images/negroni-glass-faded.jpg')}
+.bg-window {background-image: url('/images/negroni-2.jpg')}
+.bg-plant {background-image: url('/images/negroni-4.jpg')}
+.bg-water {background-image: url('/images/negroni-1.jpg')}
