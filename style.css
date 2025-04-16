@@ -1,5 +1,57 @@
+/* NOTES - Section for fonts/ colours used etc for reference 
+
+Colours: 
+bg.featured #183039
+bg.dark     #24282B 
+
+
+
+*/
+
+
+/* ---- Univeral Reset - do this first every single time! ---- */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+
+/* ---- Temporary Styles - used to help see what I'm doing essier during design/ building process - comment out after ---- */
+/*
+html,
+body {
+    border: none;
+}
+
+h1,h2,h3,h4,h5,h6,p, a {
+    border: 2px solid orange;
+}
+
+[class*=grid] {
+    margin: 0;
+}
+*/
+
+
+/* ---- Reusable Utility Classes ---- */
+.tall-50 { min-height: 50vh; }
+.tall-60 { min-height: 60vh; }
+.tall-70 { min-height: 70vh; }
+.tall-80 { min-height: 80vh; }
+.tall-90 { min-height: 90vh; }
+
+
+.padded     { padding: 5%;   }
+.padded-1   { padding: 1rem; }
+.padded-2   { padding: 2rem; }
+
+
+.padded-t-2 { padding-top: 2rem; }
+.padded-b-2 { padding-bottom: 2rem; }
+
+.margin-b-0 { margin-bottom: 0; }
+
+
+.bg-featured { background-color: #183039; }
+.bg-dark     { background-color: #24282B; }
