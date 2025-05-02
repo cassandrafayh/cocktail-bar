@@ -191,11 +191,33 @@ footer h2 {
 
 /* ---- Media Queries - make site responsive ---- */
 
+
+/* General CSS Responsive Styles (Apply everywhere unless overridden) */ 
+
+.show-xs, 
+.show-sm,
+.show-md {
+	display: none;
+}
+
+
+/* ------- MD (Medium) Media Query (64em / 1024px) --------------- */ 
+/* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */ 
+
+@media (max-width: 64em) {
+    .show-md { display: block; }
+    .hide-md { display: none;  }
+  
+    .md-tall-80 { min-height: 80vh; }
+  
+  
+  }
+  
+
 /* Gridlex Small */
 @media(max-width: 48em) {
 
     .mob-hide { display: none; }
-
     .mob-padded-t-0 { padding-top: 0; }
 
     h1 { font-size: 6rem; }
@@ -204,8 +226,13 @@ footer h2 {
     footer a {font-size: 1rem; }
 }
 
+
+
 /* Custom XXS Media Query */
 @media(max-width: 265em) {
     h1 { font-size: 4.5rem; }
     h1 span { font-size: 1.5rem; }
 }
+
+
+
